@@ -2,11 +2,11 @@ package labcodeinspection;
 
 public class Email {
 
-	private String m_firstName; //NOPMD
-	private String m_lastName;//NOPMD
-	private String password = null; //NOPMD
+	private String m_firstName; 
+	private String m_lastName;
+	private String password = null; 
 	private String department; 
-	private int defaultpasswordLength = 8; //NOPMD
+	private int defaultpasswordLength = 8; 
 	private String email;
 
 	public Email(String firstName, String lastName) {
